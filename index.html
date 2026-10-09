@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css">
+    <style>
+        * {
+            margin: 0px;
+            box-sizing: border-box;
+
+        }
+
+        .main {
+            height: 100vh;
+            background-image: url(banner.jpg);
+            background-size: cover;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .btncon {
+            background-color: rgb(49, 45, 45);
+            margin-top: 55px;
+            padding: 20px 30px;
+            font-size: 15px;
+            color: white;
+            outline: none;
+        }
+
+        .out {
+            padding: 25px 15px 25px 40px;
+            background-color: rgb(104, 89, 89);
+             border:  10px solid black;
+        }
+
+        .whi {
+            background-color: white;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .grid {
+
+
+            display: flex;
+            gap: 15px;
+
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .grid div {
+            flex-wrap: wrap;
+            flex-basis: 20%;
+            width: 150px;
+            height: 150px;
+            background-size: cover;
+        }
+
+        .grayy {
+            width: 100%;
+            display: flex;
+
+
+            background-color: rgb(187, 177, 177);
+            height: 100vh;
+            margin-top: -100px;
+
+
+        }
+
+        .grayy .part1,
+        .part2 {
+            background-color: rgba(128, 128, 128, 0.545);
+
+        }
+
+        .part1 {
+            display: flex;
+            flex-direction: column;
+            width: 50%;
+            height: 100vh;
+        }
+
+        .part2 {
+            width: 50%;
+            height: 100vh;
+            padding-left: 20px;
+
+        }
+
+        i {
+            padding: 10px 20px;
+            font-size: 20px;
+            color: rgb(78, 78, 214);
+        }
+
+        footer {
+            width: 100%;
+            height: 100px;
+            background-color: white;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        .icon i{
+            color: white;
+         }
+         .icon{
+            display: flex;
+            flex-direction: column;
+            position: absolute;
+          margin-left: -50px ;
+          padding: 5px;
+         }
+
+
+        @media screen and (max-width:768) {
+            .grid{
+                flex-direction: row;
+            }
+            .part1{
+                flex-direction:column ;
+           margin: 0px;
+            padding: 0px;     
+            }
+           .part1 .name{
+            
+                width: 0px;
+            }
+            p{
+                font-size: 16px;
+            }
+            
+        }
+    </style>
+</head>
+
+<body>
+    <div class="out">
+        <div  class="icon">
+            <i class="fa-solid fa-house"></i>
+<i class="fa-solid fa-camera"></i>
+            <i class="fa-regular fa-file-lines"></i>
+        </div>
+        <div class="main">
+            <h1 style="color: white;">Hi I'm Snapshot</h1>
+            <p style="margin-top:25px ; color: white; font-size: 17px;">A fully responsive gallery templete by <span
+                    style="color: rgb(94, 94, 216);">TEMPLETED</span> </p>
+            <BUtton class="btncon" style="border-radius: 20px;">Continue</BUtton>
+
+        </div>
+        <div class="whi">
+            <h1 style="padding: 70px;">What's New</h1>
+            <div class="grid">
+                <div class="small" style="background-image: url(p1.jpg);"></div>
+                <div class="small" style="background-image:url(p2.jpg )"></div>
+                <div class="small" style="background-image: url(p3.jpg );"></div>
+                <div class="small" style="background-image: url( p4.jpg);"></div>
+                <div class="small" style="background-image: url( p5.jpg);"></div>
+                <div class="small" style="background-image: url(p6.jpg );"></div>
+                <div class="small" style="background-image: url( p7.jpg);"></div>
+                <div class="small" style="background-image: url( p8.jpg);"></div>
+            </div>
+            <button
+                style="padding: 15px 40px; margin: 15px; background-color: rgb(92, 92, 225); color: white; border-radius: 10px;">Full
+                Gallery</button>
+
+        </div>
+        <div class="grayy">
+            <div class="part1">
+                <H1 style="padding: 20px;">About Me</H1>
+                <p style="padding: 20px; line-height: 23px;">Lorem ipsum dolor sit amet consectetur
+                    adipisicing elit. Quod corporis iusto
+                    magnam exercitationem quos animi nisi,
+                    voluptate ex voluptatibus possimus sequi
+                    laudantium ab,
+                    harum quaerat? Earum molestiae at quo delectus?
+                    Nam ut iusto aperiam quasi laboriosam ratione optio
+                    esse. Eos vero sapiente alias exercitationem,
+                    animi maiores deserunt quos fugiat
+                    reprehenderit ipsam ducimus eius fuga
+                    quo quod quibusdam perspiciatis dolor
+                    ! Corporis!</p>
+                <br><br><br>
+                <p style="padding: 20px; line-height: 23px;">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Fugit, officiis? Veritatis ratione animi molestiae laudantium eaque iste eos vel porro nemo
+                    repudiandae incidunt sapiente veniam delectus, soluta commodi repellendus tempora?
+                    Reprehenderit quod animi sapiente adipisci minima, quis ipsa dolores commodi laborum? Nesciunt earum
+                    tempore suscipit, perspiciatis voluptate vitae illum ab voluptatum aut et animi quod veniam ipsa
+                    dolores. Exercitationem, modi?
+                    Laudantium aliquam ipsum omnis
+                    unde laborum nostrum facilis quos,
+                    officia repudiandae amet quam expedita
+                    provident ratione nisi autem,
+                    id reprehenderit eligendi!
+                    Totam veritatis iusto nihil inventore,
+                    earum quaerat recusandae debitis.
+                </p>
+                <BR><BR>
+                <h1 style="padding: 15px; font-size: 20px;">FOLLOW ME</h1>
+                <br>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+
+            </div>
+            <div class="part2">
+                <h1 style="padding: 20px;">Get in touch</h1>
+                <form>
+                    <div class="name"  style="margin-top: 40px;">
+                        <label for="name">Name</label><br>
+                        <input type="text" name="name" id="name"
+                            style=" height: 30px;width: 200px;;outline: none;border: none; " placeholder="Name">
+                    </div>
+                    <br><br>
+                    <div class="name"  style="margin-top: 20px;">
+                        <label for="email">email</label><br>
+                        <input type="ema'" name="email" id="email"
+                            style=" height: 30px;width: 200px;;outline: none;border: none; " placeholder="email">
+                    </div>
+                    <br><br>
+                    <label for="textare">Message</label><br>
+                    <textarea name="textare" id="textare" rows="10" cols="40" placeholder="message"
+                        style="padding: 15px;"></textarea><br>
+                    <button
+                        style="padding: 10px 70px; margin: 15px;color: white;background-color: rgb(89, 89, 160);border-radius: 20px;font-size: 25px; ">send
+                        message</button>
+                </form>
+
+            </div>
+
+        </div>
+        <footer>
+            <div>
+                <h4 style="font-size: 20px;"><i class="fa-regular fa-copyright" style="font-size: 15px;"></i>Untitled
+                    Design: <span style="color: rgb(62, 62, 202);"> Templeted </span> . Images : <span
+                        style="color: rgb(62, 62, 202);">Unsplash</span> </h4>
+            </div>
+
+        </footer>
+    </div>
+</body>
+
+</html>
